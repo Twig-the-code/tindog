@@ -7,10 +7,6 @@ body {
   color: white;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
-
 h1 {
   font-weight: 900;
   font-size: 3.5rem;
@@ -52,10 +48,11 @@ h1 {
 
 #features {
   text-align: center;
+  padding: 7% 15%;
 }
 
 .features-1 {
-  padding: 20px;
+  padding: 4.5%;
 }
 
 h3 {
@@ -72,4 +69,45 @@ p {
 .icon {
   color: #ef8172;
   font-size: 2.5rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+.testimonial-name {
+  color: #fff;
+}
+
+#press {
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
